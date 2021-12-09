@@ -41,7 +41,7 @@ setup(
         'absl-py',
         'numpy>=1.18',
         'opt_einsum',
-        'scipy>=1.2.1',
+        'scipy>=1.1.0',  # Oldest scipy with Python 3.7 wheels
         'typing_extensions',
     ],
     extras_require={
